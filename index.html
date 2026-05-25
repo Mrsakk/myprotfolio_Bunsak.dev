@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean Bunsak — Web Developer</title>
+
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="IT Portfolio — Web Developer based in Siemreap, Cambodia.">
+  <meta name="author" content="Sean Bunsak">
+  <link rel="icon" href="./img/image copy.png" type="image/png">
+  <link rel="shortcut icon" href="./img/image copy.png" type="image/x-icon">
+
+  <!-- Open Graph / Facebook / Messenger -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bunsakdev.vercel.app/">
+  <meta property="og:title" content="Sean Bunsak — Web Developer">
+  <meta property="og:description" content="IT Portfolio — Web Developer based in Siemreap, Cambodia.">
+  <meta property="og:image" content="https://bunsakdev.vercel.app/img/portfolio_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Sean Bunsak Portfolio">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://bunsakdev.vercel.app/">
+  <meta name="twitter:title" content="Sean Bunsak — Web Developer">
+  <meta name="twitter:description" content="IT Portfolio — Web Developer based in Siemreap, Cambodia.">
+  <meta name="twitter:image" content="https://bunsakdev.vercel.app/img/portfolio_preview.png">
+
+  <!-- Theme Color for Browser -->
+  <meta name="theme-color" content="#aac4f5">
+
+  <!-- style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ── NAV ── -->
+  <header id="main-header">
+    <div class="container">
+      <nav class="premium-nav">
+        <a href="" class="logo">
+          <div class="logo-icon"><i class="fas fa-terminal"></i></div>
+          <span>BUNSAK <span class="logo-dot">.</span> DEV</span>
+        </a>
+
+        <div class="nav-links-wrapper">
+          <div class="nav-links">
+            <a href="">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#future">Future</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="nav-actions">
+          <!-- <a href="#contact" class="btn-hire">
+            <span class="btn-hire-text">Hire Me</span>
+            <span class="btn-hire-icon"><i class="fas fa-paper-plane"></i></span>
+          </a> -->
+          <button class="menu-toggle" id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+
+    <div class="hero-split">
+      <!-- Left: Text -->
+      <div class="hero-content">
+        <div class="hero-tag"><span class="status-dot"></span> AVAILABLE FOR WORK</div>
+        <h1 class="hero-name">Sean <span class="text-accent">Bunsak</span></h1>
+        <p class="hero-title">Creative Fullstack Developer & UI Designer</p>
+        <p class="hero-desc"> I am a 2nd-year Information Technology student at the National Polytechnic Institute of
+          Angkor (NPIA). I am passionate about web development and creating efficient, user-friendly digital
+          solutions. </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+
+        <!-- Horizontal Stats -->
+        <div class="hero-stat-row">
+          <div class="hero-stat-item">
+            <span class="hero-stat-num">00+</span>
+            <span class="hero-stat-txt">Years of Exp.</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-num">04</span>
+            <span class="hero-stat-txt">Projects Done</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-num">00+</span>
+            <span class="hero-stat-txt">Clients</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Profile Photo -->
+      <div class="hero-photo-side">
+        <div class="hero-photo-frame">
+          <img src="img/1843.jpg" alt="Sean Bunsak" class="hero-photo">
+          <div class="frame-accent frame-top-right"></div>
+          <div class="frame-accent frame-bottom-left"></div>
+        </div>
+        <!-- Floating Tech Badges -->
+        <div class="float-badge badge-1"><i class="fab fa-laravel"></i></div>
+        <div class="float-badge badge-2"><i class="fab fa-angular"></i></div>
+        <div class="float-badge badge-3"><i class="fab fa-html5"></i></div>
+        <div class="float-badge badge-4"><i class="fas fa-database"></i></div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" style="background:var(--surface);">
+    <div class="container">
+      <div class="section-label">About Me</div>
+      <!-- <h2 class="section-title reveal">Get To Know Me</h2> -->
+
+      <div class="about-main reveal">
+        <!-- Left: Profile Image Card -->
+        <div class="about-photo-card">
+          <div class="about-img-wrapper">
+            <img src="img/image copy 2.png" alt="Profile" class="about-img">
+            <div class="about-img-accent"></div>
+          </div>
+          <div class="about-name-card">
+            <h3>Sean Bunsak</h3>
+            <span>Web Developer</span>
+          </div>
+          <div class="about-social-row">
+            <a href="https://github.com/Mrsakk" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/share/1Hr6xiG7v3/?mibextid=wwXIfr" title="LinkedIn"><i
+                class="fab fa-facebook"></i></a>
+            <a href="https://t.me/Seanbunsak" title="Telegram"><i class="fab fa-telegram"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: Bio + Info -->
+        <div class="about-details">
+          <p class="about-bio">
+            I am a 2nd-year student at the <strong><i>National Polytechnic Institute of Angkor (NPIA)</i></strong>,
+            Generation 05, majoring in Information Systems Development based in Siem Reap.
+            I have a strong passion for building high-performance Management Systems and
+            intuitive User Interfaces using modern technologies like Laravel, PHP, and MySQL.
+            Beyond technical solving, I am constantly evolving with new tools like Flutter
+            and enjoy contributing to the tech community to grow together.</p>
+
+          <!-- Info Grid -->
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div><span class="info-label">Location</span><span class="info-value">Siem Reap, Cambodia 🇰🇭</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="fas fa-envelope"></i>
+              <div><span class="info-label">Email</span><span class="info-value">skh871081@gmail.com</span></div>
+            </div>
+            <div class="about-info-item">
+              <i class="fas fa-briefcase"></i>
+              <div><span class="info-label">Role</span><span class="info-value">Web Developer</span></div>
+            </div>
+            <div class="about-info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div><span class="info-label">Education</span><span class="info-value">Web Development</span></div>
+            </div>
+            <div class="about-info-item">
+              <i class="fas fa-language"></i>
+              <div><span class="info-label">Languages</span><span class="info-value">Khmer · English</span></div>
+            </div>
+            <div class="about-info-item">
+              <i class="fas fa-check-circle"></i>
+              <div><span class="info-label">Status</span><span class="info-value" style="color:var(--accent);">Available
+                  for hire</span></div>
+            </div>
+          </div>
+
+          <!-- Mini Stats -->
+          <div class="about-mini-stats">
+            <div class="mini-stat">
+              <div class="mini-stat-number">00+</div>
+              <div class="mini-stat-label">Years of Exp.</div>
+            </div>
+            <div class="mini-stat">
+              <div class="mini-stat-number">04+</div>
+              <div class="mini-stat-label">Projects Completed</div>
+            </div>
+            <div class="mini-stat">
+              <div class="mini-stat-number">00+</div>
+              <div class="mini-stat-label">Happy Clients</div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="about-cta">
+            <!-- <a href="#" class="btn-primary">Download CV →</a> -->
+            <a href="#contact" class="btn-outline">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">Technical Skills</div>
+      <h2 class="section-title reveal">Tech Stack & Expertise</h2>
+      <p class="section-desc reveal">I build tailored applications meeting client needs, focusing on secure,
+        high-performance data systems and APIs. I have experience in creating various systems such as POS, HR
+        management
+      <div class="skills-simple-grid reveal">
+
+        <!-- 01. Backend Architecture -->
+        <div class="simple-skill-card">
+          <div class="card-accent-line"></div>
+          <div class="simple-card-header">
+            <div class="simple-card-icon"><i class="fas fa-layer-group"></i></div>
+            <div class="simple-card-title-group">
+              <span class="simple-card-number">01</span>
+              <h3 class="simple-card-title">Backend Architecture</h3>
+            </div>
+          </div>
+          <p class="simple-card-desc">Scalable server-side solutions with secure API integration & database logic.</p>
+          <div class="simple-skills-list">
+            <div class="simple-skill-item">
+              <div class="ss-info">
+                <span class="ss-name"><i class="fab fa-laravel" style="color: #ff2d20;"></i> Laravel</span>
+                <span class="ss-val">60%</span>
+              </div>
+              <div class="ss-track">
+                <div class="ss-fill" style="--w: 60%; --c: #ff2d20;"></div>
+              </div>
+            </div>
+            <div class="simple-skill-item">
+              <div class="ss-info">
+                <span class="ss-name"><i class="fab fa-php" style="color: #777bb4;"></i> PHP / OOP</span>
+                <span class="ss-val">60%</span>
+              </div>
+              <div class="ss-track">
+                <div class="ss-fill" style="--w: 60%; --c: #777bb4;"></div>
+              </div>
+            </div>
+            <div class="simple-skill-item">
+              <div class="ss-info">
+                <span class="ss-name"><i class="fas fa-database" style="color: #00758f;"></i> MySQL / Phpmyadmin</span>
+                <span class="ss-val">80%</span>
+              </div>
+              <div class="ss-track">
+                <div class="ss-fill" style="--w: 80%; --c: #00758f;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02. Frontend Engineering -->
+        <div class="simple-skill-card">
+          <div class="card-accent-line"></div>
+          <div class="simple-card-header">
+            <div class="simple-card-icon"><i class="fas fa-code"></i></div>
+            <div class="simple-card-title-group">
+              <span class="simple-card-number">02</span>
+              <h3 class="simple-card-title">Frontend Engineering</h3>
+            </div>
+          </div>
+          <p class="simple-card-desc">Interactive, responsive, and pixel-perfect user interfaces built with modern
+            tools.</p>
+          <div class="simple-skills-list">
+            <div class="simple-skill-item">
+              <div class="ss-info">
+                <span class="ss-name"><i class="fab fa-html5" style="color: #e34f26;"></i> HTML / CSS / JS</span>
+                <span class="ss-val">70%</span>
+              </div>
+              <div class="ss-track">
+                <div class="ss-fill" style="--w: 70%; --c: #f7df1e;"></div>
+              </div>
+            </div>
+            <div class="simple-skill-item">
+              <div class="ss-info">
+                <span class="ss-name"><i class="fab fa-angular" style="color: #dd0031;"></i> Angular</span>
+                <span class="ss-val">60%</span>
+              </div>
+              <div class="ss-track">
+                <div class="ss-fill" style="--w: 60%; --c: #dd0031;"></div>
+              </div>
+            </div>
+            <div class="simple-skill-item">
+              <div class="ss-info">
+                <span class="ss-name"><i class="fas fa-wind" style="color: #38bdf8;"></i> Tailwind CSS</span>
+                <span class="ss-val">50%</span>
+              </div>
+              <div class="ss-track">
+                <div class="ss-fill" style="--w: 50%; --c: #38bdf8;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03. DevOps & Workspace -->
+        <div class="simple-skill-card">
+          <div class="card-accent-line"></div>
+          <div class="simple-card-header">
+            <div class="simple-card-icon"><i class="fas fa-code-branch"></i></div>
+            <div class="simple-card-title-group">
+              <span class="simple-card-number">03</span>
+              <h3 class="simple-card-title">DevOps & Tools</h3>
+            </div>
+          </div>
+          <p class="simple-card-desc">Streamlining standard local developer workflow and version control management.</p>
+          <div class="simple-tools-list">
+            <div class="simple-tool-row">
+              <i class="fab fa-github" style="color: #ffffff;"></i>
+              <span>Git / GitHub</span>
+            </div>
+            <div class="simple-tool-row">
+              <i class="fas fa-window-restore" style="color: #3c8a74;"></i>
+              <span>Laragon Environment</span>
+            </div>
+            <div class="simple-tool-row">
+              <i class="fas fa-terminal" style="color: #aee3ce;"></i>
+              <span>Terminal & Unix Shell</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04. Creative Design -->
+        <div class="simple-skill-card">
+          <div class="card-accent-line"></div>
+          <div class="simple-card-header">
+            <div class="simple-card-icon"><i class="fas fa-pen-nib"></i></div>
+            <div class="simple-card-title-group">
+              <span class="simple-card-number">04</span>
+              <h3 class="simple-card-title">Creative Design</h3>
+            </div>
+          </div>
+          <p class="simple-card-desc">Crafting beautiful user interfaces and intuitive UX prototypes for target
+            workflows.</p>
+          <div class="simple-tags-grid">
+            <div class="simple-tag-badge">
+              <i class="fab fa-figma" style="color: #f24e1e;"></i>
+              <span>Figma</span>
+            </div>
+            <div class="simple-tag-badge">
+              <i class="fas fa-image" style="color: #31a8ff;"></i>
+              <span>Photoshop</span>
+            </div>
+            <div class="simple-tag-badge">
+              <i class="fas fa-vial" style="color: #aee3ce;"></i>
+              <span>Prototyping</span>
+            </div>
+            <div class="simple-tag-badge">
+              <i class="fas fa-pencil-ruler" style="color: #ffc72c;"></i>
+              <span>UI/UX Design</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" style="background:var(--surface);">
+    <div class="container">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title reveal">Selected Projects</h2>
+      <p class="section-desc reveal">Showcasing my abilities through real-world applications and digital solutions.
+      </p>
+
+      <div class="projects-simple-grid reveal">
+
+        <!-- Project 1 -->
+        <div class="simple-project-card">
+          <div class="project-glow-spotlight"></div>
+          <div class="card-accent-line"></div>
+
+          <!-- Visual Corner Brackets -->
+          <div class="card-bracket bracket-tl"></div>
+          <div class="card-bracket bracket-tr"></div>
+          <div class="card-bracket bracket-bl"></div>
+          <div class="card-bracket bracket-br"></div>
+
+          <div class="project-media-wrapper">
+            <span class="project-index">01</span>
+            <span class="project-badge">Laravel</span>
+            <img src="img/npiadrink.png" alt="NPIA Drink">
+          </div>
+          <div class="project-content-area">
+            <div class="project-header">
+              <h3 class="project-title">NPIA Drink Management</h3>
+              <div class="project-actions-row">
+                <a href="https://github.com/Mrsakk/Npis_drink-management-system" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-description">A sophisticated online beverage and snack management system designed to
+              provide top-tier service and automated tracking.</p>
+            <div class="project-tags">
+              <span class="project-tag-item"><i class="fab fa-laravel" style="color: #FF2D20;"></i>Laravel</span>
+              <span class="project-tag-item"><i class="fab fa-css3-alt" style="color: #38BDF8;"></i>Tailwind CSS</span>
+              <span class="project-tag-item"><i class="fas fa-database" style="color: #4479A1;"></i>Phpmyadmin</span>
+              <span class="project-tag-item"><i class="fab fa-telegram" style="color: #0088cc;"></i>Telegram Bot</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-status">
+                <span class="project-status-dot"></span>
+                <span>Active Production</span>
+              </div>
+              <span class="project-year">2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="simple-project-card">
+          <div class="project-glow-spotlight"></div>
+          <div class="card-accent-line"></div>
+
+          <!-- Visual Corner Brackets -->
+          <div class="card-bracket bracket-tl"></div>
+          <div class="card-bracket bracket-tr"></div>
+          <div class="card-bracket bracket-bl"></div>
+          <div class="card-bracket bracket-br"></div>
+
+          <div class="project-media-wrapper">
+            <span class="project-index">02</span>
+            <span class="project-badge">Business Suite</span>
+            <img src="img/posmanagement.png" alt="POS System">
+          </div>
+          <div class="project-content-area">
+            <div class="project-header">
+              <h3 class="project-title">POS Management System</h3>
+              <div class="project-actions-row">
+                <a href="https://github.com/Mrsakk/pos_manatement" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-description">An integrated hardware and software solution designed to streamline sales,
+              payments, and business operations efficiently.</p>
+            <div class="project-tags">
+              <span class="project-tag-item"><i class="fab fa-laravel" style="color: #FF2D20;"></i>Laravel</span>
+              <span class="project-tag-item"><i class="fab fa-css3-alt" style="color: #38BDF8;"></i>Tailwind CSS</span>
+              <span class="project-tag-item"><i class="fas fa-database" style="color: #4479A1;"></i>Phpmyadmin</span>
+              <span class="project-tag-item"><i class="fas fa-server" style="color: #00758F;"></i>MySQL</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-status">
+                <span class="project-status-dot"></span>
+                <span>Active Production</span>
+              </div>
+              <span class="project-year">2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="simple-project-card">
+          <div class="project-glow-spotlight"></div>
+          <div class="card-accent-line"></div>
+
+          <!-- Visual Corner Brackets -->
+          <div class="card-bracket bracket-tl"></div>
+          <div class="card-bracket bracket-tr"></div>
+          <div class="card-bracket bracket-bl"></div>
+          <div class="card-bracket bracket-br"></div>
+
+          <div class="project-media-wrapper">
+            <span class="project-index">03</span>
+            <span class="project-badge">Business Suite</span>
+            <img src="img/schoolms.png" alt="School MS">
+          </div>
+          <div class="project-content-area">
+            <div class="project-header">
+              <h3 class="project-title">School Management System</h3>
+              <div class="project-actions-row">
+                <a href="https://github.com/Mrsakk/studentManagement.ms" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-description">A digital platform that streamlines administrative tasks, teaching workflows,
+              and student learning processes effectively.</p>
+            <div class="project-tags">
+              <span class="project-tag-item"><i class="fab fa-laravel" style="color: #FF2D20;"></i>Laravel</span>
+              <span class="project-tag-item"><i class="fab fa-css3-alt" style="color: #38BDF8;"></i>Tailwind CSS</span>
+              <span class="project-tag-item"><i class="fas fa-database" style="color: #4479A1;"></i>Phpmyadmin</span>
+              <span class="project-tag-item"><i class="fas fa-server" style="color: #00758F;"></i>MySQL</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-status">
+                <span class="project-status-dot"></span>
+                <span>Active Production</span>
+              </div>
+              <span class="project-year">2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="simple-project-card">
+          <div class="project-glow-spotlight"></div>
+          <div class="card-accent-line"></div>
+
+          <!-- Visual Corner Brackets -->
+          <div class="card-bracket bracket-tl"></div>
+          <div class="card-bracket bracket-tr"></div>
+          <div class="card-bracket bracket-bl"></div>
+          <div class="card-bracket bracket-br"></div>
+
+          <div class="project-media-wrapper">
+            <span class="project-index">04</span>
+            <span class="project-badge">Business Suite</span>
+            <img src="img/bookMs.png" alt="Book MS">
+          </div>
+          <div class="project-content-area">
+            <div class="project-header">
+              <h3 class="project-title">Book Management System</h3>
+              <div class="project-actions-row">
+                <a href="https://github.com/Mrsakk/bookManagement.ms" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-description">A digital library collection management system that enhances administrative
+              efficiency and detailed book tracking.</p>
+            <div class="project-tags">
+              <span class="project-tag-item"><i class="fab fa-laravel" style="color: #FF2D20;"></i>Laravel</span>
+              <span class="project-tag-item"><i class="fab fa-css3-alt" style="color: #38BDF8;"></i>Tailwind CSS</span>
+              <span class="project-tag-item"><i class="fas fa-database" style="color: #4479A1;"></i>Phpmyadmin</span>
+              <span class="project-tag-item"><i class="fas fa-server" style="color: #00758F;"></i>MySQL</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-status">
+                <span class="project-status-dot"></span>
+                <span>Active Production</span>
+              </div>
+              <span class="project-year">2026</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FUTURE LAB ── -->
+  <section id="future" class="future-lab">
+    <div class="future-grid-overlay"></div>
+    <div class="container">
+      <div class="section-label">Future Lab</div>
+      <h2 class="section-title reveal">Future Project</h2>
+      <p class="section-desc reveal">Strategic development roadmap. I am currently architecting these high-impact
+        solutions, focusing on seamless e-commerce, automated management systems, and advanced media processing.</p>
+
+      <div class="future-grid reveal">
+        <!-- Future Project 1 -->
+        <div class="future-card">
+          <div class="future-visual">
+            <img src="img/fashion_shop_concept_1778730306010.png" alt="Fashion Shop">
+            <div class="future-glow"></div>
+            <p class="future-desc">
+              The Fashion Shop project is a type of electronic commerce (E-commerce) website designed specifically to
+              display and
+              sell clothing products online. Based on the images and information you have provided, this project has the
+              following
+              key features: Main Purpose The main purpose of this add, modify, or remove products.
+            </p>
+          </div>
+          <div class="future-card-content">
+            <div class="future-card-header">
+              <div class="future-icon"><i class="fas fa-shopping-bag"></i></div>
+              <span class="future-status">E-COMMERCE</span>
+            </div>
+            <h3 class="future-name">Fashion Shop E-Commerce</h3>
+            <div class="future-tags">
+              <span>Laravel</span>
+              <span>Tailwind CSS</span>
+              <span>Phpmyadmin</span>
+              <span>php</span>
+            </div>
+          </div>
+          <div class="future-card-bg"></div>
+          <div class="future-scanline"></div>
+        </div>
+
+        <!-- Future Project 2 -->
+        <div class="future-card">
+          <div class="future-visual">
+            <img src="img/dce5aa1eed4396f0cb8f4872ead4ef3d.jpg" alt="Hospital Management">
+            <div class="future-glow"></div>
+            <p class="future-desc">A comprehensive management suite for hospitals and clinics, automating patient
+              records, appointments, billing, and inventory management for seamless healthcare operations</p>
+          </div>
+          <div class="future-card-content">
+            <div class="future-card-header">
+              <div class="future-icon"><i class="fas fa-hospital"></i></div>
+              <span class="future-status">MANAGEMENT SYSTEM</span>
+            </div>
+            <h3 class="future-name">Hospital/Clinic Management System</h3>
+            <div class="future-tags">
+              <span>System Design</span>
+              <span>MySQL</span>
+              <span>Laravel</span>
+              <span>Tailwind CSS</span>
+              <span>Phpmyadmin</span>
+              <span>php</span>
+            </div>
+          </div>
+          <div class="future-card-bg"></div>
+          <div class="future-scanline"></div>
+        </div>
+
+        <!-- Future Project 3 -->
+        <div class="future-card">
+          <div class="future-visual">
+            <img src="img/hotel_management.png" alt="Hotel Management">
+            <div class="future-glow"></div>
+            <p class="future-desc">A system for booking hotel and resort, optimizing booking and management for
+              late-night entertainment.</p>
+          </div>
+          <div class="future-card-content">
+            <div class="future-card-header">
+              <div class="future-icon"><i class="fas fa-home"></i></div>
+              <span class="future-status">MANAGEMENT SYSTEM</span>
+            </div>
+            <h3 class="future-name">Hotel/Resort Booking Management System</h3>
+            <div class="future-tags">
+              <span>Laravel</span>
+              <span>Tailwind CSS</span>
+              <span>Phpmyadmin</span>
+              <span>php</span>
+            </div>
+          </div>
+          <div class="future-card-bg"></div>
+          <div class="future-scanline"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label">Experience & Education</div>
+      <h2 class="section-title reveal">Professional Journey</h2>
+
+      <div class="experience-v5 reveal">
+        <!-- Item 1: IT Student -->
+        <div class="v5-item">
+          <div class="v5-line"></div>
+          <div class="v5-sidebar">
+            <span class="v5-num">ROLE / 01</span>
+            <div class="v5-year-box">2024 — 2026</div>
+          </div>
+          <div class="v5-content">
+            <h3 class="v5-role">IT Student</h3>
+            <span class="v5-company">National Polytechnic Institute of Angkor</span>
+            <p class="v5-desc">An IT student focusing on information systems development, system design, and advanced
+              data management.</p>
+            <div class="v5-tags">
+              <span class="v5-tag">Laravel</span>
+              <span class="v5-tag">Angular</span>
+              <span class="v5-tag">MySQL</span>
+              <span class="v5-tag">Bootstrap</span>
+              <span class="v5-tag">PHP</span>
+              <span class="v5-tag">JavaScript</span>
+              <span class="v5-tag">HTML</span>
+              <span class="v5-tag">CSS</span>
+              <span class="v5-tag">JQuery</span>
+              <span class="v5-tag">Git</span>
+              <span class="v5-tag">Photoshop</span>
+              <span class="v5-tag">PhpMyAdmin</span>
+              <span class="v5-tag">MySQL</span>
+              <span class="v5-tag">Java</span>
+              <span class="v5-tag">Flutter</span>
+              <span class="v5-tag">Dart</span>
+              <span class="v5-tag">C++</span>
+              <span class="v5-tag">Laragon</span>
+              <span class="v5-tag">Figma</span>
+              <span class="v5-tag">System Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Web Developer -->
+        <div class="v5-item">
+          <div class="v5-line"></div>
+          <div class="v5-sidebar">
+            <span class="v5-num">ROLE / 02</span>
+            <div class="v5-year-box">2025 — PRESENT</div>
+          </div>
+          <div class="v5-content">
+            <h3 class="v5-role">Web Developer</h3>
+            <span class="v5-company">Management System / Project-Based</span>
+            <p class="v5-desc">Currently focused on researching and developing modern, user-friendly smart management
+              systems for efficient data handling. This experience emphasizes digital transformation and streamlining
+              business operations.</p>
+            <div class="v5-tags">
+              <span class="v5-tag">Web Development / Management System</span>
+              <span class="v5-tag">Laravel / Php / Api / OOP</span>
+              <span class="v5-tag">MySQL / PhpMyAdmin</span>
+              <span class="v5-tag">JavaScript / Angular</span>
+              <span class="v5-tag">HTML/CSS</span>
+              <span class="v5-tag">Tailwind CSS</span>
+              <span class="v5-tag">System Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION & CERTS ── -->
+  <section id="education">
+    <div class="edu-ambient-glow"></div>
+    <div class="edu-ambient-glow2"></div>
+    <div class="container">
+      <div class="section-label">Education & Certifications</div>
+      <h2 class="section-title reveal">Academic Journey</h2>
+      <p class="section-desc reveal">My educational path and professional credentials that shape my expertise in
+        technology and development.</p>
+
+      <div class="edu-journey-wrapper reveal">
+        <!-- Timeline Line -->
+        <div class="edu-timeline-line"></div>
+
+        <!-- NPIA Card -->
+        <div class="edu-card-v7">
+          <div class="edu-card-v7-timeline-dot">
+            <div class="dot-ring"></div>
+          </div>
+          <div class="edu-card-v7-inner">
+            <div class="edu-card-v7-header">
+              <div class="edu-card-v7-icon">
+                <i class="fas fa-university"></i>
+              </div>
+              <div class="edu-card-v7-badge-group">
+                <span class="edu-card-v7-status active"><i class="fas fa-circle"></i> Currently Enrolled</span>
+                <span class="edu-card-v7-year">2024 — 2026</span>
+              </div>
+            </div>
+            <div class="edu-card-v7-body">
+              <span class="edu-card-v7-org">National Polytechnique Institute of Angkor (NPIA)</span>
+              <h3 class="edu-card-v7-degree">Information Technology</h3>
+              <p class="edu-card-v7-desc">Majoring in Information Systems Development — Generation 05. Focusing on
+                full-stack web development, system design, and database optimization.</p>
+              <div class="edu-card-v7-tags">
+                <span><i class="fas fa-graduation-cap"></i> Year 02</span>
+                <span><i class="fas fa-code"></i> ISD Major</span>
+                <span><i class="fas fa-users"></i> Gen 05</span>
+              </div>
+            </div>
+            <div class="edu-card-v7-glow"></div>
+          </div>
+        </div>
+
+        <!-- High School Card -->
+        <div class="edu-card-v7 completed">
+          <div class="edu-card-v7-timeline-dot">
+            <div class="dot-ring"></div>
+          </div>
+          <div class="edu-card-v7-inner">
+            <div class="edu-card-v7-header">
+              <div class="edu-card-v7-icon grad">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="edu-card-v7-badge-group">
+                <span class="edu-card-v7-status completed"><i class="fas fa-check-circle"></i> Completed</span>
+                <span class="edu-card-v7-year">2019 — 2024</span>
+              </div>
+            </div>
+            <div class="edu-card-v7-body">
+              <span class="edu-card-v7-org">Samdech Techo Hun Sen Samphan Pheap — SPP High School</span>
+              <h3 class="edu-card-v7-degree">General Education</h3>
+              <p class="edu-card-v7-desc">Completed high school education with strong performance in sciences and
+                mathematics, laying the foundation for a career in technology.</p>
+              <div class="edu-card-v7-tags">
+                <span><i class="fas fa-award"></i> Graduated 2024</span>
+                <span><i class="fas fa-school"></i> High School</span>
+              </div>
+            </div>
+            <div class="edu-card-v7-glow"></div>
+          </div>
+        </div>
+
+        <!-- Certification Card -->
+        <!-- <div class="edu-card-v7 cert">
+            <div class="edu-card-v7-timeline-dot cert">
+              <div class="dot-ring"></div>
+            </div>
+            <div class="edu-card-v7-inner cert-inner">
+              <div class="edu-card-v7-header">
+                <div class="edu-card-v7-icon cert-icon">
+                  <i class="fas fa-certificate"></i>
+                </div>
+                <div class="edu-card-v7-badge-group">
+                  <span class="edu-card-v7-status verified"><i class="fas fa-shield-alt"></i> Verified</span>
+                  <span class="edu-card-v7-year">2025</span>
+                </div>
+              </div>
+              <div class="edu-card-v7-body">
+                <span class="edu-card-v7-org">Codecademy</span>
+                <h3 class="edu-card-v7-degree">Showcase & Coding Achievement</h3>
+                <p class="edu-card-v7-desc">Demonstrated excellence in coding practices, software development principles, and project showcasing through Codecademy's certification program.</p>
+                <div class="edu-card-v7-tags">
+                  <span><i class="fas fa-shield-alt"></i> CC-CAD-2025-081</span>
+                  <span><i class="fas fa-trophy"></i> Achievement</span>
+                </div>
+              </div>
+              <div class="edu-card-v7-glow"></div>
+            </div>
+          </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title reveal">Let's Build Something Great</h2>
+      <p class="section-desc reveal">If you have a project in mind or want to collaborate, please message me now to
+        start developing technology together.</p>
+
+      <div class="contact-wrapper reveal">
+        <!-- Left: Contact Info & Socials -->
+        <div class="contact-info-side">
+
+
+          <a href="https://t.me/Seanbunsak" class="contact-card-v4 telegram">
+            <div class="c-v4-icon"><i class="fab fa-telegram"></i></div>
+            <div class="c-v4-details">
+              <span class="c-v4-label">Telegram</span>
+              <span class="c-v4-value">@seanbunsak</span>
+            </div>
+            <div class="c-v4-arrow"><i class="fas fa-chevron-right"></i></div>
+          </a>
+
+          <a href="https://www.facebook.com/share/1Hr6xiG7v3/?mibextid=wwXIfr" class="contact-card-v4 telegram">
+            <div class="c-v4-icon"><i class="fab fa-facebook"></i></div>
+            <div class="c-v4-details">
+              <span class="c-v4-label">Facebook</span>
+              <span class="c-v4-value">Sean Bunsak</span>
+            </div>
+            <div class="c-v4-arrow"><i class="fas fa-chevron-right"></i></div>
+          </a>
+
+          <a href="https://www.tiktok.com/@bunsak.dev" class="contact-card-v4 tiktok">
+            <div class="c-v4-icon"><i class="fab fa-tiktok"></i></div>
+            <div class="c-v4-details">
+              <span class="c-v4-label">Tiktok</span>
+              <span class="c-v4-value">@mrsakkk</span>
+            </div>
+            <div class="c-v4-arrow"><i class="fas fa-chevron-right"></i></div>
+          </a>
+          <a href="https://github.com/Mrsakk" class="contact-card-v4 github">
+            <div class="c-v4-icon"><i class="fab fa-github"></i></div>
+            <div class="c-v4-details">
+              <span class="c-v4-label">Github</span>
+              <span class="c-v4-value"> Bunsak / Mrsakk</span>
+            </div>
+            <div class="c-v4-arrow"><i class="fas fa-chevron-right"></i></div>
+          </a>
+
+
+          <div class="contact-card-v4 location">
+            <div class="c-v4-icon"><i class="fas fa-envelope"></i></div>
+            <div class="c-v4-details">
+              <span class="c-v4-label">Email</span>
+              <span class="c-v4-value">skh871081@gmail.com</span>
+            </div>
+            <div class="c-v4-arrow"><i class="fas fa-chevron-right"></i></div>
+          </div>
+
+
+          <div class="contact-card-v4 location">
+            <div class="c-v4-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="c-v4-details">
+              <span class="c-v4-label">Location</span>
+              <span class="c-v4-value">Siem Reap, Cambodia 🇰🇭</span>
+            </div>
+            <div class="c-v4-arrow"><i class="fas fa-chevron-right"></i></div>
+          </div>
+
+          <!-- Availability Status -->
+          <div class="availability-card">
+            <div class="status-indicator">
+              <div class="status-dot-large"></div>
+              <span>AVAILABLE FOR FREELANCE</span>
+            </div>
+            <p>I am actively looking for exciting new projects and collaborations.</p>
+          </div>
+        </div>
+
+        <!-- Right: Brand Identity Logo -->
+        <div class="contact-brand-side">
+          <div class="brand-logo-container">
+            <div class="brand-logo-v3">
+              <span class="logo-main">BS<span class="logo-accent">.</span>D</span>
+              <div class="logo-glow"></div>
+              <div class="logo-particles">
+                <span class="p1"></span>
+                <span class="p2"></span>
+                <span class="p3"></span>
+              </div>
+            </div>
+            <div class="brand-tagline">
+              <span class="tag-dev">DEVELOPER</span>
+              <span class="tag-sep">//</span>
+              <span class="tag-name">BUNSAK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a class="logo">
+            <i class="fas fa-code"></i> BUNSAK.DEV
+          </a>
+          <p>Creating professional digital experiences with passion and precision.</p>
+        </div>
+      </div>
+
+
+
+      <div class="footer-bottom">
+        <span>© 2025 Sean Bunsak — All Rights Reserved</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
