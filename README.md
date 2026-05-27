@@ -1,45 +1,63 @@
-# Sean Bunsak — Web Developer Portfolio
+# 🎭 Sean Bunsak — Cinematic Web Developer Portfolio
 
-![Portfolio Preview](./img/portfolio_preview.png)
+<div align="center">
+  <img src="./img/portfolio_preview.png" alt="Portfolio Preview" width="100%" style="border-radius: 8px;" />
 
-A premium, cinematic personal portfolio showcasing my expertise in Fullstack Development, UI/UX Design, and Management Systems. Built with a focus on modern aesthetics, responsiveness, and performance.
+  <p align="center">
+    A premium, cinematic personal portfolio showcasing expertise in Full-Stack Development, UI/UX Design, and Management Systems. Built with a heavy focus on modern aesthetics, responsiveness, and clean performance.
+  </p>
 
-## 🚀 Live Demo
-Visit the live site: [bunsak.dev](https://bunsak.dev/)
-
-## ✨ Key Features
-- **Cinematic V6 Design**: High-end UI with glassmorphism, glowing accents, and smooth transitions.
-- **Responsive Layout**: Optimized for all devices from mobile to large desktop screens.
-- **Dynamic Projects Showcase**: Detailed views of recent work including NPIA Drink, POS Management, and School MS.
-- **Interactive Tech Stack**: Modular representation of technical skills with animated progress indicators.
-- **Future Lab**: A roadmap of upcoming projects and innovations.
-- **Direct Contact**: Integrated social links and contact points for professional inquiries.
-
-## 🛠️ Tech Stack
-- **Frontend**: HTML5, CSS3 (Vanilla), JavaScript (ES6+), Font Awesome
-- **Backend (Projects)**: Laravel, PHP, MySQL
-- **Design Tools**: Figma, Photoshop
-- **Environment**: Laragon, Git/GitHub
-
-## 📂 Project Structure
-```text
-├── img/                # Visual assets and project screenshots
-├── index.html          # Main application structure
-├── style.css           # Cinematic V6 design system and layouts
-├── script.js           # Interactive elements and animations
-└── README.md           # Project documentation
-```
-
-## 📈 Recent Updates
-- **v6.0.0**: Redesigned Technical Skills section with cinematic V6 aesthetic and new background.
-- **v5.8.0**: Updated social sharing meta tags and localized profile descriptions.
-- **v5.5.0**: Refined Future Lab layout with hover-triggered project descriptions.
-
-## 🤝 Contact
-- **Telegram**: [@seanbunsak](https://t.me/Seanbunsak)
-- **Facebook**: [Sean Bunsak](https://www.facebook.com/share/1Hr6xiG7v3/?mibextid=wwXIfr)
-- **Email**: skh871081@gmail.com
-- **Location**: Siem Reap, Cambodia 🇰🇭
+  <p align="center">
+    <a href="https://bunsak.dev/"><img src="https://img.shields.io/badge/Live_Demo-🚀-blueviolet?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo"></a>
+    <a href="https://github.com/Mrsakk"><img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub"></a>
+  </p>
+</div>
 
 ---
-*Created with passion by [Sean Bunsak](https://github.com/Mrsakk)*
+
+## ✨ Key Features
+
+*   **Cinematic V6 Design:** High-end UI featuring glassmorphism, glowing micro-interactions, and ultra-smooth layout transitions.
+*   **Responsive Architecture:** Fully optimized for fluid viewing across all devices, from mobile screens to ultrawide desktops.
+*   **Dynamic Project Showcases:** In-depth, structural breakdowns of core applications like *NPIA Drink*, *POS Management Systems*, and *School MS*.
+*   **Interactive Tech Stack:** Modular representations of core development skills accompanied by animated progress indicators.
+*   **The Future Lab:** A strategic roadmap tracking upcoming software projects and research innovations.
+*   **Direct Pipeline:** Seamless communication channels and social integrations for fast professional inquiries.
+
+---
+
+## 🛠️ Tech Stack
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎨 Frontend & Design</h4>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS" />
+      <br />
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
+      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white" alt="Photoshop" />
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚙️ Backend & Environment</h4>
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+      <br />
+      <img src="https://img.shields.io/badge/Laragon-22B573?style=flat-square&logo=laragon&logoColor=white" alt="Laragon" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📂 Project Structure
+
+```text
+├── img/                # Visual assets, logos, and project screenshots
+├── index.html          # Main application structural entry point
+├── style.css           # Cinematic V6 core design system and layouts
+├── script.js           # Interactive triggers and custom physics/animations
+└── README.md           # Project documentation and engineering notes
