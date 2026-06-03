@@ -73,6 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = '';
       });
     });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
   }
 
   // ── Project Spotlight Mouse Effect ──
@@ -86,5 +95,25 @@ document.addEventListener('DOMContentLoaded', () => {
       card.style.setProperty('--mouse-y', `${y}px`);
     });
   });
+
+  // ── Hero Title Typewriter Effect ──
+  const heroTitle = document.querySelector('.hero-title');
+  if (heroTitle) {
+    const text = heroTitle.textContent;
+    heroTitle.textContent = '';
+    heroTitle.classList.add('typing-active');
+    
+    let i = 0;
+    setTimeout(() => {
+      const typeWriter = setInterval(() => {
+        if (i < text.length) {
+          heroTitle.textContent += text.charAt(i);
+          i++;
+        } else {
+          clearInterval(typeWriter);
+        }
+      }, 50); // Speed of typing
+    }, 1000); // Delay before starting
+  }
 
 });

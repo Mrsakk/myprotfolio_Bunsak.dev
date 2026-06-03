@@ -9,8 +9,8 @@
   <!-- SEO & Meta Tags -->
   <meta name="description" content="IT Portfolio — Web Developer based in Siemreap, Cambodia.">
   <meta name="author" content="Sean Bunsak">
-  <link rel="icon" href="./img/image copy.png" type="image/png">
-  <link rel="shortcut icon" href="./img/image copy.png" type="image/x-icon">
+  <link rel="icon" href="./img/logo_dev.png" type="image/png">
+  <link rel="shortcut icon" href="./img/logo_dev.png" type="image/x-icon">
 
   <!-- Open Graph / Facebook / Messenger -->
   <meta property="og:type" content="website">
@@ -29,14 +29,22 @@
   <meta name="twitter:description" content="IT Portfolio — Web Developer based in Siemreap, Cambodia.">
   <meta name="twitter:image" content="https://bunsakdev.vercel.app/img/portfolio_preview.png">
 
+  <!-- Telegram -->
+  <meta name="telegram:card" content="summary_large_image">
+  <meta name="telegram:url" content="https://bunsakdev.vercel.app/">
+  <meta name="telegram:title" content="Sean Bunsak — Web Developer">
+  <meta name="telegram:description" content="IT Portfolio — Web Developer based in Siemreap, Cambodia.">
+  <meta name="telegram:image" content="https://bunsakdev.vercel.app/img/portfolio_preview.png">
   <!-- Theme Color for Browser -->
-  <meta name="theme-color" content="#aac4f5">
+  <meta name="theme-color" content="#408A71">
 
   <!-- style -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bayon&family=Cutive+Mono&family=Khmer&family=Luckiest+Guy&family=Merienda:wght@300..900&family=Rowdies:wght@300;400;700&family=Rubik+Vinyl&family=Young+Serif&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bayon&family=Carter+One&family=Cutive+Mono&family=Khmer&family=Luckiest+Guy&family=Merienda:wght@300..900&family=Rowdies:wght@300;400;700&family=Rubik+Vinyl&family=Young+Serif&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -55,7 +63,7 @@
           <div class="nav-links">
             <a href="">Home</a>
             <a href="#about">About</a>
-            <a href="#skills">Skills</a>
+            <a href="#skills">Skills & Services</a>
             <a href="#projects">Projects</a>
             <a href="#future">Future</a>
             <a href="#experience">Experience</a>
@@ -63,11 +71,11 @@
           </div>
         </div>
 
+
         <div class="nav-actions">
-          <!-- <a href="#contact" class="btn-hire">
-            <span class="btn-hire-text">Hire Me</span>
-            <span class="btn-hire-icon"><i class="fas fa-paper-plane"></i></span>
-          </a> -->
+          <a href="https://github.com/Mrsakk" target="_blank" rel="noopener noreferrer" class="btn-hire">
+            <span class="btn-hire-text"><i class="fab fa-github" style="color: rgb(255, 255, 255);"></i></span>
+          </a>
           <button class="menu-toggle" id="menu-toggle">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -95,49 +103,75 @@
           solutions. </p>
 
         <div class="hero-cta">
-          <a href="#projects" class="btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
-          <a href="#contact" class="btn-outline">Contact Me</a>
+          <a href="#projects" class="btn-primary">
+            View Projects <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn-outline">
+            Contact Me <i class="fas fa-envelope"></i>
+          </a>
         </div>
 
         <!-- Horizontal Stats -->
         <div class="hero-stat-row">
-          <div class="hero-stat-item">
+          <!-- <div class="hero-stat-item">
             <span class="hero-stat-num">00+</span>
             <span class="hero-stat-txt">Years of Exp.</span>
-          </div>
+          </div> -->
           <div class="hero-stat-divider"></div>
           <div class="hero-stat-item">
             <span class="hero-stat-num">04</span>
             <span class="hero-stat-txt">Projects Done</span>
           </div>
           <div class="hero-stat-divider"></div>
-          <div class="hero-stat-item">
+          <!-- <div class="hero-stat-item">
             <span class="hero-stat-num">00+</span>
             <span class="hero-stat-txt">Clients</span>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <!-- Right: Profile Photo -->
       <div class="hero-photo-side">
-        <div class="hero-photo-frame">
-          <img src="img/1843.jpg" alt="Sean Bunsak" class="hero-photo">
-          <div class="frame-accent frame-top-right"></div>
-          <div class="frame-accent frame-bottom-left"></div>
+        <div class="pro-card-wrapper">
+          <div class="pro-card">
+            <div class="pro-card-glow"></div>
+            <div class="pro-card-header">
+              <span class="pro-logo">I'm</span>
+              <span class="pro-status"><i class="fas fa-circle"></i>Hire Me</span>
+            </div>
+            <div class="pro-photo-container">
+              <div class="pro-photo-ring"></div>
+              <img src="img/mesak.png" alt="Sean Bunsak" class="pro-photo">
+            </div>
+            <div class="pro-card-body">
+              <h3 class="pro-name">Sean Bunsak</h3>
+              <p class="pro-role">Web Developer</p>
+              <div class="pro-divider"></div>
+              <div class="pro-skills">
+
+                <span><i class="fab fa-laravel" style="color: red;"></i></span>
+                <span><i class="fab fa-php" style="color: rgb(8, 50, 128);"></i></span>
+                <span><i class="fas fa-database" style="color: rgb(213, 213, 10);"></i></span>
+                <span><i class="fab fa-angular" style="color: red;"></i></span>
+                <span><i class="fab fa-html5" style="color: rgb(199, 45, 8);"></i></span>
+                <span><i class="fab fa-css3" style="color: rgb(8, 84, 199);"></i></span>
+                <span><i class="fab fa-js" style="color: rgb(255, 234, 0);"></i></span>
+
+
+
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Floating Tech Badges -->
-        <div class="float-badge badge-1"><i class="fab fa-laravel"></i></div>
+        <!-- <div class="float-badge badge-1"><i class="fab fa-laravel"></i></div>
         <div class="float-badge badge-2"><i class="fab fa-angular"></i></div>
         <div class="float-badge badge-3"><i class="fab fa-html5"></i></div>
-        <div class="float-badge badge-4"><i class="fas fa-database"></i></div>
+        <div class="float-badge badge-4"><i class="fas fa-database"></i></div> -->
       </div>
     </div>
 
-    <!-- Scroll Indicator -->
-    <div class="scroll-indicator">
-      <span>SCROLL</span>
-      <div class="scroll-line"></div>
-    </div>
+
   </section>
 
   <!-- ── ABOUT ── -->
@@ -207,18 +241,18 @@
 
           <!-- Mini Stats -->
           <div class="about-mini-stats">
-            <div class="mini-stat">
+            <!-- <div class="mini-stat">
               <div class="mini-stat-number">00+</div>
               <div class="mini-stat-label">Years of Exp.</div>
-            </div>
+            </div> -->
             <div class="mini-stat">
               <div class="mini-stat-number">04+</div>
               <div class="mini-stat-label">Projects Completed</div>
             </div>
-            <div class="mini-stat">
+            <!-- <div class="mini-stat">
               <div class="mini-stat-number">00+</div>
               <div class="mini-stat-label">Happy Clients</div>
-            </div>
+            </div> -->
           </div>
 
           <!-- CTA -->
@@ -231,9 +265,11 @@
     </div>
   </section>
 
+
+
   <!-- ── SKILLS ── -->
   <section id="skills">
-    <div class="container">
+    <div class="container" style="padding:10px;">
       <div class="section-label">Technical Skills</div>
       <h2 class="section-title reveal">Tech Stack & Expertise</h2>
       <p class="section-desc reveal">I build tailored applications meeting client needs, focusing on secure,
@@ -266,7 +302,7 @@
               <i class="fas fa-database" style="color: #f8bf64;"></i>
               <span>Mysql / Phpmyadmin</span>
             </div>
-            
+
           </div>
         </div>
 
@@ -292,13 +328,14 @@
               <span>Angular</span>
             </div>
             <div class="simple-tool-row">
-              <i class="fas fa-wind" style="color: #8eb9e3;"></i> 
+              <i class="fas fa-wind" style="color: #8eb9e3;"></i>
               <span>Tailwind CSS</span>
             </div>
           </div>
         </div>
 
         <!-- 03. DevOps & Workspace -->
+
         <div class="simple-skill-card">
           <div class="card-accent-line"></div>
           <div class="simple-card-header">
@@ -311,7 +348,7 @@
           <p class="simple-card-desc">Streamlining standard local developer workflow and version control management.</p>
           <div class="simple-tools-list">
             <div class="simple-tool-row">
-              <i class="fab fa-github" style="color: #ffffff;"></i>
+              <i href="https://github.com/Mrsakk" class="fab fa-github" style="color: #ffffff;"></i>
               <span>Git / GitHub</span>
             </div>
             <div class="simple-tool-row">
@@ -356,8 +393,61 @@
             </div>
           </div>
         </div>
-
       </div>
+      <!-- ── WHAT I DO ── -->
+      <section id="what-i-do">
+        <div class="container">
+          <div class="section-label">Services</div>
+          <h2 class="section-title reveal">What I Do</h2>
+          <p class="section-desc reveal">Delivering high-quality digital solutions tailored to your business needs, from
+            engaging frontends to robust backends.</p>
+          <div class="what-i-do-grid reveal">
+
+            <!-- 01. Web Development -->
+            <div class="simple-skill-card">
+              <div class="card-accent-line"></div>
+              <div class="simple-card-header">
+                <div class="simple-card-icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="simple-card-title-group">
+                  <span class="simple-card-number">01</span>
+                  <h3 class="simple-card-title">Web Development</h3>
+                </div>
+              </div>
+              <p class="simple-card-desc">Building responsive, high-performance web applications tailored to your
+                specific business requirements and ensuring an optimal user experience across all devices.</p>
+            </div>
+
+            <!-- 02. API & Backend -->
+            <div class="simple-skill-card">
+              <div class="card-accent-line"></div>
+              <div class="simple-card-header">
+                <div class="simple-card-icon"><i class="fas fa-server"></i></div>
+                <div class="simple-card-title-group">
+                  <span class="simple-card-number">02</span>
+                  <h3 class="simple-card-title">Backend & APIs</h3>
+                </div>
+              </div>
+              <p class="simple-card-desc">Designing and developing secure, scalable server-side architectures and APIs
+                that power complex digital products and seamlessly integrate with various services.</p>
+            </div>
+
+            <!-- 03. UI/UX Design -->
+            <div class="simple-skill-card">
+              <div class="card-accent-line"></div>
+              <div class="simple-card-header">
+                <div class="simple-card-icon"><i class="fas fa-paint-brush"></i></div>
+                <div class="simple-card-title-group">
+                  <span class="simple-card-number">03</span>
+                  <h3 class="simple-card-title">UI/UX Design</h3>
+                </div>
+              </div>
+              <p class="simple-card-desc">Crafting intuitive, aesthetically pleasing user interfaces and engaging
+                experiences that delight users and elevate your brand's digital presence.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </div>
   </section>
 
@@ -511,7 +601,7 @@
           <div class="project-media-wrapper">
             <span class="project-index">04</span>
             <span class="project-badge">Business Suite</span>
-            <img src="img/bookMs.png" alt="Book MS">
+            <img src="img/bookMs..png" alt="Book MS">
           </div>
           <div class="project-content-area">
             <div class="project-header">
@@ -588,8 +678,8 @@
           <div class="future-visual">
             <img src="img/dce5aa1eed4396f0cb8f4872ead4ef3d.jpg" alt="Hospital Management">
             <div class="future-glow"></div>
-            <p class="future-desc">A comprehensive management suite for hospitals and clinics, automating patient
-              records, appointments, billing, and inventory management for seamless healthcare operations</p>
+            <p class="future-desc">The main purpose of this project is to allow users to add, modify, or remove
+              products efficiently.</p>
           </div>
           <div class="future-card-content">
             <div class="future-card-header">
