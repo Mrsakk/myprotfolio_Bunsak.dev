@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,7 +46,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bayon&family=Carter+One&family=Cutive+Mono&family=Khmer&family=Luckiest+Guy&family=Merienda:wght@300..900&family=Rowdies:wght@300;400;700&family=Rubik+Vinyl&family=Young+Serif&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 
 <body>
@@ -54,14 +55,14 @@
   <header id="main-header">
     <div class="container">
       <nav class="premium-nav">
-        <a href="" class="logo">
+        <a href="#hero" class="logo">
           <div class="logo-icon"><i class="fas fa-terminal"></i></div>
           <span>BUNSAK <span class="logo-dot">.</span> DEV</span>
         </a>
 
         <div class="nav-links-wrapper">
           <div class="nav-links">
-            <a href="">Home</a>
+            <a href="#hero">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills & Services</a>
             <a href="#projects">Projects</a>
@@ -119,7 +120,7 @@
           </div> -->
           <div class="hero-stat-divider"></div>
           <div class="hero-stat-item">
-            <span class="hero-stat-num">04</span>
+            <span class="hero-stat-num">06</span>
             <span class="hero-stat-txt">Projects Done</span>
           </div>
           <div class="hero-stat-divider"></div>
@@ -180,35 +181,26 @@
       <div class="section-label">About Me</div>
       <!-- <h2 class="section-title reveal">Get To Know Me</h2> -->
 
-      <div class="about-main reveal">
+      <div class="about-main reveal ">
         <!-- Left: Profile Image Card -->
-        <div class="about-photo-card">
+        <div class="about-photo-card col-4">
           <div class="about-img-wrapper">
-            <img src="img/image copy 2.png" alt="Profile" class="about-img">
+            <img src="img/isdp.png" alt="Profile" class="about-img">
             <div class="about-img-accent"></div>
           </div>
-          <div class="about-name-card">
-            <h3>Sean Bunsak</h3>
-            <span>Web Developer</span>
-          </div>
-          <div class="about-social-row">
-            <a href="https://github.com/Mrsakk" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://www.facebook.com/share/1Hr6xiG7v3/?mibextid=wwXIfr" title="LinkedIn"><i
-                class="fab fa-facebook"></i></a>
-            <a href="https://t.me/Seanbunsak" title="Telegram"><i class="fab fa-telegram"></i></a>
-          </div>
+
         </div>
 
         <!-- Right: Bio + Info -->
-        <div class="about-details">
-          <p class="about-bio">
+        <div class="about-details col-8">
+                    <p class="about-bio">
             I am a 2nd-year student at the <strong><i>National Polytechnic Institute of Angkor (NPIA)</i></strong>,
             Generation 05, majoring in Information Systems Development based in Siem Reap.
             I have a strong passion for building high-performance Management Systems and
             intuitive User Interfaces using modern technologies like Laravel, PHP, and MySQL.
             Beyond technical solving, I am constantly evolving with new tools like Flutter
-            and enjoy contributing to the tech community to grow together.</p>
-
+            and enjoy contributing to the tech community to grow together.
+          </p>
           <!-- Info Grid -->
           <div class="about-info-grid">
             <div class="about-info-item">
@@ -235,37 +227,21 @@
             <div class="about-info-item">
               <i class="fas fa-check-circle"></i>
               <div><span class="info-label">Status</span><span class="info-value" style="color:var(--accent);">Available
-                  for hire</span></div>
+                  for hire</span>
+              </div>
             </div>
-          </div>
 
-          <!-- Mini Stats -->
-          <div class="about-mini-stats">
-            <!-- <div class="mini-stat">
-              <div class="mini-stat-number">00+</div>
-              <div class="mini-stat-label">Years of Exp.</div>
-            </div> -->
-            <div class="mini-stat">
-              <div class="mini-stat-number">04+</div>
-              <div class="mini-stat-label">Projects Completed</div>
+            <div class="about-info-item">
+              <i class="fas fa-layer-group"></i>
+              <div><span class="info-label">Projects</span><span class="info-value"
+                  style="color:var(--accent);">06+ Projects Completed</span>
+              </div>
             </div>
-            <!-- <div class="mini-stat">
-              <div class="mini-stat-number">00+</div>
-              <div class="mini-stat-label">Happy Clients</div>
-            </div> -->
-          </div>
-
-          <!-- CTA -->
-          <div class="about-cta">
-            <!-- <a href="#" class="btn-primary">Download CV →</a> -->
-            <a href="#contact" class="btn-outline">Contact Me</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
 
   <!-- ── SKILLS ── -->
   <section id="skills">
@@ -481,8 +457,12 @@
             <div class="project-header">
               <h3 class="project-title">NPIA Drink Management</h3>
               <div class="project-actions-row">
+                <!-- GitHub -->
                 <a href="https://github.com/Mrsakk/Npis_drink-management-system" class="project-action-btn demo-btn"
-                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                  title="Live Preview"><i class="fab fa-github"></i></a>
+                <!-- Live --> 
+                <!-- <a href="https://github.com/Mrsakk/Npis_drink-management-system" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a> -->
               </div>
             </div>
             <p class="project-description">A sophisticated online beverage and snack management system designed to
@@ -498,7 +478,7 @@
                 <span class="project-status-dot"></span>
                 <span>Active Production</span>
               </div>
-              <span class="project-year">2026</span>
+              <span class="project-year">2025</span>
             </div>
           </div>
         </div>
@@ -523,8 +503,12 @@
             <div class="project-header">
               <h3 class="project-title">POS Management System</h3>
               <div class="project-actions-row">
+                <!-- GitHub -->
                 <a href="https://github.com/Mrsakk/pos_manatement" class="project-action-btn demo-btn"
-                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                  title="Live Preview"><i class="fab fa-github"></i></a>
+                <!-- Live -->
+                <!-- <a href="https://github.com/Mrsakk/pos_manatement" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a> -->
               </div>
             </div>
             <p class="project-description">An integrated hardware and software solution designed to streamline sales,
@@ -540,7 +524,7 @@
                 <span class="project-status-dot"></span>
                 <span>Active Production</span>
               </div>
-              <span class="project-year">2026</span>
+              <span class="project-year">2025</span>
             </div>
           </div>
         </div>
@@ -565,8 +549,12 @@
             <div class="project-header">
               <h3 class="project-title">School Management System</h3>
               <div class="project-actions-row">
+                <!-- GitHub -->
                 <a href="https://github.com/Mrsakk/studentManagement.ms" class="project-action-btn demo-btn"
-                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                  title="Live Preview"><i class="fab fa-github"></i></a>
+                  <!-- Live -->
+                <!-- <a href="https://github.com/Mrsakk/studentManagement.ms" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a> -->
               </div>
             </div>
             <p class="project-description">A digital platform that streamlines administrative tasks, teaching workflows,
@@ -582,7 +570,7 @@
                 <span class="project-status-dot"></span>
                 <span>Active Production</span>
               </div>
-              <span class="project-year">2026</span>
+              <span class="project-year">2025</span>
             </div>
           </div>
         </div>
@@ -607,9 +595,14 @@
             <div class="project-header">
               <h3 class="project-title">Book Management System</h3>
               <div class="project-actions-row">
+                <!-- GitHub -->
                 <a href="https://github.com/Mrsakk/bookManagement.ms" class="project-action-btn demo-btn"
-                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i></a>
-              </div>
+                  title="Live Preview"><i class="fab fa-github"></i></a>
+                <!-- Live 
+                <a href="https://github.com/Mrsakk/bookManagement.ms" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i>
+                </a> -->
+              </div> 
             </div>
             <p class="project-description">A digital library collection management system that enhances administrative
               efficiency and detailed book tracking.</p>
@@ -629,6 +622,101 @@
           </div>
         </div>
 
+        <!-- project 5 -->
+        <div class="simple-project-card">
+          <div class="project-glow-spotlight"></div>
+          <div class="card-accent-line"></div>
+
+          <!-- Visual Corner Brackets -->
+          <div class="card-bracket bracket-tl"></div>
+          <div class="card-bracket bracket-tr"></div>
+          <div class="card-bracket bracket-bl"></div>
+          <div class="card-bracket bracket-br"></div>
+
+          <div class="project-media-wrapper">
+            <span class="project-index">04</span>
+            <span class="project-badge">E-Commerce Grocery Management System</span>
+            <img src="img/freshMart.png" alt="freshMart">
+          </div>
+          <div class="project-content-area">
+            <div class="project-header">
+              <h3 class="project-title">FreshMart E-Commerce</h3>
+              <div class="project-actions-row">
+                <!-- GitHub -->
+                <a href="https://github.com/Mrsakk/E-commerce-Grocery-Management-System" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fab fa-github"></i>
+                </a>
+                <!-- Live -->
+                <a href="https://e-commerce-grocery-management-syste.vercel.app" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <p class="project-description">From local farms to your doorstep, enjoy fresh vegetables, fruits, meat, seafood, and daily essentials with fast delivery and trusted quality.Shop smarter with FreshMart and get premium groceries delivered straight to your home.</p>
+            <div class="project-tags">
+              <span class="project-tag-item"><i class="fab fa-laravel" style="color: #FF2D20;"></i>Laravel</span>
+              <span class="project-tag-item"><i class="fab fa-css3-alt" style="color: #38BDF8;"></i>Tailwind CSS</span>
+              <span class="project-tag-item"><i class="fas fa-database" style="color: #4479A1;"></i>Phpmyadmin</span>
+              <span class="project-tag-item"><i class="fas fa-server" style="color: #00758F;"></i>MySQL</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-status">
+                <span class="project-status-dot"></span>
+                <span>Active Production</span>
+              </div>
+              <span class="project-year">2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- project 6 Hospital Management -->
+        <div class="simple-project-card">
+          <div class="project-glow-spotlight"></div>
+          <div class="card-accent-line"></div>
+
+          <!-- Visual Corner Brackets -->
+          <div class="card-bracket bracket-tl"></div>
+          <div class="card-bracket bracket-tr"></div>
+          <div class="card-bracket bracket-bl"></div>
+          <div class="card-bracket bracket-br"></div>
+
+          <div class="project-media-wrapper">
+            <span class="project-index">04</span>
+            <span class="project-badge">Hospital Management System</span>
+            <img src="img/hms.png" alt="hms">
+          </div>
+          <div class="project-content-area">
+            <div class="project-header">
+              <h3 class="project-title">Hospital Management System</h3>
+              <div class="project-actions-row">
+                <!-- GitHub -->
+                <a href="https://github.com/Mrsakk/Hospital-Management-stytem" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fab fa-github"></i>
+                </a>
+                <!-- Live
+                <a href="https://github.com/Mrsakk/bookManagement.ms" class="project-action-btn demo-btn"
+                  title="Live Preview"><i class="fas fa-arrow-up-right-from-square"></i>
+                </a> -->
+              </div> 
+            </div>
+            <p class="project-description">The Hospital Management System (HMS) is a comprehensive, web-based application designed to streamline and centralize the administrative, clinical, and operational workflows of a hospital. It serves as a digital backbone for modern healthcare delivery, ensuring efficient patient care, accurate record-keeping, and seamless coordination among medical staff.</p>
+            <div class="project-tags">
+              <span class="project-tag-item"><i class="fab fa-laravel" style="color: #FF2D20;"></i>Laravel</span>
+              <span class="project-tag-item"><i class="fab fa-css3-alt" style="color: #38BDF8;"></i>Tailwind CSS</span>
+              <span class="project-tag-item"><i class="fas fa-database" style="color: #4479A1;"></i>Phpmyadmin</span>
+              <span class="project-tag-item"><i class="fas fa-server" style="color: #00758F;"></i>MySQL</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-status">
+                <span class="project-status-dot"></span>
+                <span>Active Production</span>
+              </div>
+              <span class="project-year">2026</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- project 7 -->
       </div>
     </div>
   </section>
@@ -984,23 +1072,27 @@
         </div>
 
         <!-- Right: Brand Identity Logo -->
-        <div class="contact-brand-side">
-          <div class="brand-logo-container">
-            <div class="brand-logo-v3">
-              <span class="logo-main">BS<span class="logo-accent">.</span>D</span>
-              <div class="logo-glow"></div>
-              <div class="logo-particles">
-                <span class="p1"></span>
-                <span class="p2"></span>
-                <span class="p3"></span>
-              </div>
+        <div class="contact-form-side">
+          <form id="contact-form" class="modern-contact-form">
+            <h3 class="form-title">Send a Message</h3>
+            <div class="input-group">
+              <input type="text" id="name" name="user_name" required placeholder=" ">
+              <label for="name">Your Name</label>
             </div>
-            <div class="brand-tagline">
-              <span class="tag-dev">DEVELOPER</span>
-              <span class="tag-sep">//</span>
-              <span class="tag-name">BUNSAK</span>
+            <div class="input-group">
+              <input type="email" id="email" name="user_email" required placeholder=" ">
+              <label for="email">Your Email</label>
             </div>
-          </div>
+            <div class="input-group">
+              <textarea id="message" name="message" required placeholder=" " rows="4"></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn-primary form-submit-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+            <div id="form-status" class="form-status"></div>
+          </form>
         </div>
       </div>
     </div>
@@ -1026,7 +1118,15 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    // NOTE: You need to put your actual EmailJS Public Key here!
+    // Get it from your EmailJS Account -> API Keys
+    (function() {
+      emailjs.init("F3EPhzwRriM3lxY0o");
+    })();
+  </script>
+  <script src="script.js?v=2"></script>
 </body>
 
 </html>

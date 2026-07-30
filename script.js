@@ -116,4 +116,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1000); // Delay before starting
   }
 
+  // ── Contact Form EmailJS Integration ──
+  const contactForm = document.getElementById('contact-form');
+  const formStatus = document.getElementById('form-status');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const submitBtn = this.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<span>Sending...</span> <i class="fas fa-spinner fa-spin"></i>';
+      submitBtn.disabled = true;
+      formStatus.className = 'form-status';
+      formStatus.textContent = '';
+
+      // NOTE: Replace "YOUR_TEMPLATE_ID" with your actual EmailJS Template ID
+      emailjs.sendForm('service_uej413i', 'template_gbezwoa', this)
+        .then(() => {
+          formStatus.textContent = 'Message sent successfully!';
+          formStatus.classList.add('success');
+          contactForm.reset();
+        }, (error) => {
+          formStatus.textContent = 'Failed to send message: ' + (error.text || 'Please try again.');
+          formStatus.classList.add('error');
+          console.error('EmailJS Error:', error);
+        })
+        .finally(() => {
+          submitBtn.innerHTML = originalBtnText;
+          submitBtn.disabled = false;
+        });
+    });
+  }
+
 });
