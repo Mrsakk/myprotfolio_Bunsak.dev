@@ -104,9 +104,12 @@
           solutions. </p>
 
         <div class="hero-cta">
-          <a href="#projects" class="btn-primary">
-            View Projects <i class="fas fa-arrow-right"></i>
+          <a href="img/Seanbunsak.cv.pdf" download="SeanBunsak_CV.pdf" class="btn-primary">
+            Download CV <i class="fas fa-download"></i>
           </a>
+          <button class="btn-outline" id="preview-cv-btn" onclick="openCVModal()">
+            Preview CV <i class="fas fa-eye"></i>
+          </button>
           <a href="#contact" class="btn-outline">
             Contact Me <i class="fas fa-envelope"></i>
           </a>
@@ -1139,6 +1142,51 @@
     })();
   </script>
   <script src="script.js?v=2"></script>
+
+  <!-- ── CV PREVIEW MODAL ── -->
+  <div id="cv-modal" class="cv-modal-overlay" onclick="closeCVModalOutside(event)">
+    <div class="cv-modal-box">
+      <div class="cv-modal-header">
+        <div class="cv-modal-title">
+          <i class="fas fa-file-pdf"></i>
+          <span>Sean Bunsak — Curriculum Vitae</span>
+        </div>
+        <div class="cv-modal-actions">
+          <a href="img/Seanbunsak.cv.pdf" download="SeanBunsak_CV.pdf" class="cv-modal-btn download" title="Download CV">
+            <i class="fas fa-download"></i> Download
+          </a>
+          <button class="cv-modal-btn close" onclick="closeCVModal()" title="Close">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <div class="cv-modal-body">
+        <iframe id="cv-iframe" src="" class="cv-iframe" title="CV Preview"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openCVModal() {
+      const modal = document.getElementById('cv-modal');
+      const iframe = document.getElementById('cv-iframe');
+      iframe.src = 'img/Seanbunsak.cv.pdf';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeCVModal() {
+      const modal = document.getElementById('cv-modal');
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+      setTimeout(() => { document.getElementById('cv-iframe').src = ''; }, 300);
+    }
+    function closeCVModalOutside(e) {
+      if (e.target === document.getElementById('cv-modal')) closeCVModal();
+    }
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeCVModal();
+    });
+  </script>
 </body>
 
 </html>
